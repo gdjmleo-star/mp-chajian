@@ -1,6 +1,17 @@
 {
-  "name": "gdjmleo-star 插件仓库",
-  "description": "MoviePilot 自定义插件仓库，包含 CustomMediaCat 自定义媒体分类插件",
-  "version": "1.0.0",
-  "author": "gdjmleo-star"
+  "CustomMediaCat": {
+    "name": "自定义媒体分类",
+    "description": "电影按4K/杜比视界二次归档，电视剧按QB源文件名关键词分类。",
+    "labels": "整理,分类",
+    "version": "7.9",
+    "icon": "category.png",
+    "author": "Isaac",
+    "level": 1,
+    "v2": true,
+    "history": {
+      "v7.9": "修复4K映射华语电影对齐，产品化发布至GitHub",
+      "v7.8": "动态绑定事件监听器，支持WebUI可视化配置",
+      "v7.0": "初版，支持电视剧平台关键词分类和电影4K升级"
+    }
+  }
 }
